@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+    <h1>Enhance HTML</h1>
+    <section id="list">
+        <h2>Web Development Glossary - List</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language — the standard language for creating web pages.</dd>
+
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets — used for describing the presentation of a web page.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>A programming language used to create dynamic and interactive effects in web browsers.</dd>
+        </dl>
+    </section>
+        <section id="media">
+            <h2>Media</h2>
+            <video src="Jireh.mp4" controls width="400"></video>
+        </section>
+    <section id="tables">
+        <h2>PLP Moudles</h2>
+        <table border="1">
+            <tr>
+                <td>S/N</td>
+                <td>MODULE</td>
+                <td>STATUS</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Web Development</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Database Design</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Python</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Startup Building</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Software Engineering Essentials</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+    </section>
+    <section id="form">
+        <h2>Contact Form</h2>
+        <form>
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+            
+            <!-- Gender -->
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="email" placeholder="you@example.com" required> Male
+            <input type="radio" name="email" placeholder="you@example.com" required> Female <br><br>
+
+            <!-- Country -->
+            <label>Country:</label><br>
+            <select>
+                <option value="">Nigeria</option>
+                <option value="">Kenya</option>
+                <option value="">Ethiopia</option>
+                <option value="">Ghana</option>
+                <option value="">Gambia</option>
+            </select><br><br>
+
+            <!-- Message -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea><br><br>
+
+            <!-- Submit -->
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
